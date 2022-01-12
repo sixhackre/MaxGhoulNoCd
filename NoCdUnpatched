@@ -1,0 +1,125 @@
+
+
+
+local mouse = game.Players.LocalPlayer:GetMouse()
+	mouse.KeyDown:Connect(function(k) 
+if k == "p" then
+local player = game.Players.LocalPlayer.Character
+ local tool = game.Players.LocalPlayer.DFStats.Tool.Value
+local Event1 = player[tool].Attack:FindFirstChild("Right")
+local Event2 = player[tool].Attack:FindFirstChild("Fire")
+print("lol")
+if Event1 then
+print("1")
+local A_1 = 150000000000000000000000000000000000000000000000000000000000000
+Event1:FireServer(A_1)
+end
+if Event2 then
+local A_2 = 150000000000000000000000000000000000000000000000000000000000000
+Event2:FireServer(A_2)
+print("2")
+end
+end
+end)
+
+
+local mouse = game.Players.LocalPlayer:GetMouse()
+			mouse.KeyDown:Connect(function(k) 
+				if k == "e" then
+					local tool = game.Players.LocalPlayer.DFStats.Tool.Value
+					local kagune = game.Players.LocalPlayer.DFStats.Kagune.Value
+					print(tool)
+					print("e")
+					local skill1 = game.Players.LocalPlayer.Character[tool]:FindFirstChild("SkillZ")
+					local skill2 = game.Players.LocalPlayer.Character[tool]:FindFirstChild("Z")
+                    local skill3 = game.Players.LocalPlayer.Character[tool]:FindFirstChild("E")
+					if skill1 then
+						skill1.Fire:FireServer()
+						print("1")
+					end
+					if skill2 then
+						skill2.Fire:FireServer()
+						print("2")
+					end
+			         if skill3 then
+						skill3.Fire:FireServer()
+						print("3")
+					end
+				end
+			end)
+	
+	
+			local mouse = game.Players.LocalPlayer:GetMouse()
+			mouse.KeyDown:Connect(function(k) 
+				if k == "r" then
+					local tool = game.Players.LocalPlayer.DFStats.Tool.Value
+					local kagune = game.Players.LocalPlayer.DFStats.Kagune.Value
+					print(tool)
+					print("r")
+					local skill1 = game.Players.LocalPlayer.Character[tool]:FindFirstChild("SkillX")
+					local skill2 = game.Players.LocalPlayer.Character[tool]:FindFirstChild("X")
+                    local skill3 = game.Players.LocalPlayer.Character[tool]:FindFirstChild("R")
+					if skill1 then
+						skill1.Fire:FireServer()
+						print("1")
+					end
+					if skill2 then
+						skill2.Fire:FireServer()
+						print("2")
+					end
+			         if skill3 then
+						skill3.Fire:FireServer()
+						print("3")
+					end
+				end
+			end)
+	
+			local mouse = game.Players.LocalPlayer:GetMouse()
+			mouse.KeyDown:Connect(function(k) 
+				if k == "t" then
+					local tool = game.Players.LocalPlayer.DFStats.Tool.Value
+					local kagune = game.Players.LocalPlayer.DFStats.Kagune.Value
+					print(tool)
+					print("t")
+					local skill1 = game.Players.LocalPlayer.Character[tool]:FindFirstChild("SkillC")
+					local skill2 = game.Players.LocalPlayer.Character[tool]:FindFirstChild("C")
+                    local skill3 = game.Players.LocalPlayer.Character[tool]:FindFirstChild("T")
+					if skill1 then
+						skill1.Fire:FireServer()
+						print("1")
+					end
+					if skill2 then
+						skill2.Fire:FireServer()
+						print("2")
+					end
+			         if skill3 then
+						skill3.Fire:FireServer()
+						print("3")
+					end
+				end
+			end)
+	
+			local mouse = game.Players.LocalPlayer:GetMouse()
+			mouse.KeyDown:Connect(function(k) 
+				if k == "f" then
+					local tool = game.Players.LocalPlayer.DFStats.Tool.Value
+					local kagune = game.Players.LocalPlayer.DFStats.Kagune.Value
+					print(tool)
+					print("f")
+					local skill1 = game.Players.LocalPlayer.Character[tool]:FindFirstChild("SkillV")
+					local skill2 = game.Players.LocalPlayer.Character[tool]:FindFirstChild("V")
+                    local skill3 = game.Players.LocalPlayer.Character[tool]:FindFirstChild("F")
+					if skill1 then
+						skill1.Fire:FireServer()
+						print("1")
+					end
+					if skill2 then
+						skill2.Fire:FireServer()
+						print("2")
+					end
+			         if skill3 then
+						skill3.Fire:FireServer()
+						print("3")
+					end
+				end
+end)
